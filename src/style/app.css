@@ -80,6 +80,10 @@ body.shell {
 
 body.stream {
     background-color: var(--stream-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .terminal-container {
@@ -103,7 +107,7 @@ body.stream {
 
 .device-view {
     z-index: 1;
-    float: right;
+    /* float: right; */
     display: inline-block;
 }
 
